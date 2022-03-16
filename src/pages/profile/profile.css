@@ -1,0 +1,98 @@
+.profile{
+    display: flex;
+}
+.profileRightbar{
+    flex:9;
+}
+.profileRightbarTop{
+    margin-bottom: 20px;
+}
+.profileCover{
+    height: 320px;
+    position: relative;
+}
+.profileCoverImg{
+    height:250px;
+    width: 100%;
+    object-fit: cover;
+    
+    cursor: pointer;
+}
+.profilePicture{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+    cursor: pointer;
+}
+
+.profileInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.profileTitle{
+    font-size: 24px;
+    padding-bottom: 5px;
+}
+.profileDesc{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.rightbarBottom{
+    display: flex;
+}
+
+/* this is for rightbar profile */
+
+.userInfo{
+    margin-top: 7px;
+}
+.userInfoTitle{
+    font-weight: 500;
+}
+.userInfoDesc{
+    margin: 10px 0;
+    font-size: 16px;
+    opacity: 90%;
+}
+.key{
+    font-weight: 500;
+    margin-right: 15px;
+}
+
+.userFollowings{
+    margin: 20px 0;
+}
+.userFollowingsList{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.userFollowingsFriend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.userFollowingsImg{
+    height: 150px;
+    width: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.userFollowingsName{
+    font-size: 16px;
+    opacity: 95%;
+}

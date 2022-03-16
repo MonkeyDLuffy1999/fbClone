@@ -1,0 +1,18 @@
+.feedCollection {
+  flex: 5;
+  padding: 20px;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  /* overflow-y: scroll; */
+}
+.feedCollection::-webkit-scrollbar{
+  width: 2px;
+}
+
+.feed{
+  display: block;
+  margin-bottom: 70px;
+}
+
+
